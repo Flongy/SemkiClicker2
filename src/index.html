@@ -1,31 +1,44 @@
 <html>
     <head>
-        <title>Hello, world!</title>
+        <title>GIMME ALL THE SEMKI!</title>
         <link rel="stylesheet" href="style.css">
         <script src="semki.js" defer></script>
     </head>
     <body>
         <div class="content">
             <div class="game-grid" id="semki-body">
-                <div class="column" id="left">
-                    <div class="column-header header-text">Column Header</div>
+                <div class="column" id="upgrades">
+                    <div class="column-header header-text">Модификаторы</div>
                 </div>
                 <div id="middle">
                     <div class="header header-text">
-                        Page header
+                        Семкощёлкер 2.0
                     </div>
                     <div style="flex: 1;">
-                        <h2>Lorem ipsum, i guess?</h2>
-                        <p id="lorem">Has to change on load</p>
+                        <div class="stats">
+                            <span id="semki-value"></span>
+                            <span id="semki-per-sec"></span>
+                        </div>
+                        <div class="center-semka">
+                            <img src="res/sunflower-256p.png" id="semka" class="button">
+                        </div>
                     </div>
-                    <div class="footer header-text">
-                        Page footer
+                    <div class="footer header-text" style="z-index: -2;">
+                        GLHF, бро
                     </div>
                 </div>
-                <div class="column" id="right">
-                    <div class="column-header header-text">Column Header</div>
+                <div class="column" id="minions">
+                    <div class="column-header header-text">Прихвостни</div>
                 </div>
             </div>
+        </div>
+        <div class="box-area">
+            <img src="res/semka.png">
+            <img src="res/semka.png">
+            <img src="res/semka.png">
+            <img src="res/semka.png">
+            <img src="res/semka.png">
+            <img src="res/semka.png">
         </div>
     </body>
 </html>
